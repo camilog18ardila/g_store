@@ -1,0 +1,34 @@
+
+j
+java:S1192C"HDefine a constant instead of duplicating this literal "history" 3 times.(Ç»é¡şÿÿÿÿ8›¥²0
+f	java:S117F"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»›Öì
+=
+java:S1604}"(Make this anonymous inner class a lambda(¯ã‡
+?
+java:S1604©"(Make this anonymous inner class a lambda(´õˆë
+D
+java:S1604°"(Make this anonymous inner class a lambda(Şœ»ÿÿÿÿÿ
+{
+java:S1488Ó"_Immediately return this expression instead of assigning it to the temporary variable "validar".(ŠœË¯øÿÿÿÿ
+g	java:S101,"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¬¾ãêûÿÿÿÿ
+c
+java:S1659."NDeclare "categoriainfogame" and all following declarations on a separate line.(·¶Ã
+Z
+java:S16593"DDeclare "dataref" and all following declarations on a separate line.(ü›¹»
+—
+java:S1186\"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ô°¤¦
+m
+java:S3776c"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(—ÁÄæÿÿÿÿÿ
+C
+java:S1172c"(Remove this unused method parameter "v".(—ÁÄæÿÿÿÿÿ
+V	java:S125y"<This block of commented-out lines of code should be removed.(Ê£ÀŒıÿÿÿÿ
+>
+java:S1481z")Remove this unused "user" local variable.(®ßÙ-
+F
+java:S1172š"(Remove this unused method parameter "v".(ô³Ù°8Ó„¥²0
+X
+java:S2209œ"5Change this instance-reference to a static reference.(ÊÓ‡úÿÿÿÿ8Ó„¥²0
+m
+java:S1659¾"JDeclare "txtgamenombre" and all following declarations on a separate line.(İ‡Ú­şÿÿÿÿ8Ó„¥²0
+P
+java:S1144Ò"2Remove this unused private "validarcompra" method.(¿Ö‚¯8®Ó„¥²0

@@ -1,0 +1,28 @@
+
+=
+java:S1604_"(Make this anonymous inner class a lambda(¯ã‡
+C
+java:S1604o"(Make this anonymous inner class a lambda(Ÿ ¹ÿÿÿÿÿ
+C
+java:S1604v"(Make this anonymous inner class a lambda(€»Ïçúÿÿÿÿ
+D
+java:S1604£"(Make this anonymous inner class a lambda(”îô®üÿÿÿÿ
+q	java:S1165"\Rename this field "tvname_menuinicio" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öš’
+]
+java:S16595"GDeclare "tvVirtualM" and all following declarations on a separate line.(öš’
+D
+java:S16596")Declare "loggedEmail" on a separate line.(›êåéıÿÿÿÿ
+j
+java:S14507"TRemove the "mAuth" field and declare it as a local variable in the relevant methods.(ªĞ”’
+r
+java:S14509"\Remove the "mStrotagerefe" field and declare it as a local variable in the relevant methods.(’éöÒ
+˜
+java:S1186‚"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(á¬‡İ
+˜
+java:S1186‡"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Œğ£Â
+Q
+java:S1161¿":Add the "@Override" annotation above this method signature(ñ”Ò
+N
+java:S3972Å"7Move this "if" to a new line or add the missing "else".(¿ÌÍä
+G
+java:S10689"1Remove this unused "mStrotagerefe" private field.(’éöÒ

@@ -1,0 +1,15 @@
+
+r
+java:S1104"WMake imagenlista a static final constant or non-public and provide accessors if needed.(Ó’ëıÿÿÿÿ
+r
+java:S1104"WMake juegonombre a static final constant or non-public and provide accessors if needed.(Ë²ğûıÿÿÿÿ
+r
+java:S1104"WMake juegoprecio a static final constant or non-public and provide accessors if needed.(Ë²ğûıÿÿÿÿ
+u
+java:S1104"ZMake juegocategoria a static final constant or non-public and provide accessors if needed.(Ë²ğûıÿÿÿÿ
+o
+java:S1104"MMake v a static final constant or non-public and provide accessors if needed.(ú”…‚øÿÿÿÿ8ã¸¾°±0
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(šÍÀˆ
+c
+java:S1659"HDeclare "juegoprecio" and all following declarations on a separate line.(Ë²ğûıÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(ßîÈªüÿÿÿÿ
