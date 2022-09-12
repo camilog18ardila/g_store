@@ -15,8 +15,6 @@ r
 Bapp/src/main/java/com/example/g_store/adapter/history_adapter.java,e\1\e1a5ae229f0cee4058ff8e74614d6cd86dcedbe6
 d
 4app/src/main/java/com/example/g_store/Gamesedit.java,1\b\1b7a37f2bc499c60b026714492253c2f582f0861
-j
-:app/src/main/java/com/example/g_store/activity_signup.java,2\4\2479bd902844cf3379197b61739ad0471524c2f1
 i
 9app/src/main/java/com/example/g_store/activity_login.java,f\d\fd96c418b0298c7c970702a10cd9bc5ede1edf82
 g
@@ -25,8 +23,6 @@ e
 5app/src/main/java/com/example/g_store/MenuInicio.java,7\b\7b47e909daddcf001886d115d064a3ff7285c5f3
 f
 6app/src/main/java/com/example/g_store/model/games.java,4\3\43191c78fcbc763faf36d775d45ef94773781f79
-c
-3app/src/main/java/com/example/g_store/gameinfo.java,d\2\d20aa21ba585a6c6b5ccc393948056c186241725
 p
 @app/src/main/java/com/example/g_store/adapter/games_Adapter.java,a\f\aff652e2449e092979469c406c81f7bee485cf87
 :

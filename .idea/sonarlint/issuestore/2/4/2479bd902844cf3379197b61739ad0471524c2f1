@@ -1,28 +1,0 @@
-
-w
-java:S1192h"aDefine a constant instead of duplicating this literal "Este campo no puede quedar vacio" 5 times.(£Éžï
-J
-java:S1066:"/Merge this if statement with the enclosing one.(êÍ®ûüÿÿÿÿ
->
-java:S1604D"(Make this anonymous inner class a lambda(òœÐ¶
-C
-java:S1604L"(Make this anonymous inner class a lambda(œÁÈÌþÿÿÿÿ
->
-java:S1604;"(Make this anonymous inner class a lambda(çÇ´Ý
-C
-java:S1604U"(Make this anonymous inner class a lambda(œÁÈÌþÿÿÿÿ
-g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(—‰É”ýÿÿÿÿ
-f	java:S116"QRename this field "FireDB" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ð“Èà
-[
-java:S1659"@Declare "et2" and all following declarations on a separate line.(©œ°Çúÿÿÿÿ
-b
-java:S1659"GDeclare "txlastname" and all following declarations on a separate line.(‡ëÙéÿÿÿÿÿ
->
-java:S11722"(Remove this unused method parameter "v".(Ü¨õÔ
-h	java:S100~"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(š÷¬»üÿÿÿÿ
-@
-java:S1068"*Remove this unused "FireDB" private field.(Ð“Èà
-@
-java:S1068"*Remove this unused "mirefe" private field.(øŒÍÍ
-B
-java:S1068"'Remove this unused "et6" private field.(©œ°Çúÿÿÿÿ
