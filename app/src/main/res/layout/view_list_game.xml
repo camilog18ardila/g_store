@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="340dp"
+    android:animateLayoutChanges="true"
+    android:background="@drawable/fondovista"
+    app:cardBackgroundColor="#00FFFFFF"
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="25dp"
+    app:cardElevation="5dp">
+
+    <TextView
+        android:id="@+id/tvnombrejuegolista"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="10dp"
+        android:elegantTextHeight="false"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="name"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ivimagenjuegolista"
+        android:layout_width="match_parent"
+        android:layout_height="198dp"
+        android:layout_below="@+id/tvnombrejuegolista"
+        android:layout_gravity="center"
+        android:background="@drawable/fondoimagen"
+        android:layout_margin="5dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/ic_image" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_below="@id/ivimagenjuegolista"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="10dp"
+        android:background="#75CCC0"
+         />
+
+    <TextView
+        android:id="@+id/tvcategoriajuegolista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view3"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="categoria"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvpreciojuegolista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvcategoriajuegolista"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="prince"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvcategoriajuegolista"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="248dp"
+        android:layout_marginBottom="-43dp"
+        android:text="$"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

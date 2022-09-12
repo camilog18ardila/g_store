@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:animateLayoutChanges="true"
+    android:background="@drawable/fondohistorial"
+    app:cardBackgroundColor="#00FFFFFF"
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="25dp"
+    app:cardElevation="5dp">
+
+    <TextView
+        android:id="@+id/tvnombrejuegohistoria"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="10dp"
+        android:elegantTextHeight="false"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:shadowColor="#9E2E2E"
+        android:text="name"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_below="@id/tvnombrejuegohistoria"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="10dp"
+        android:background="#75CCC0"
+        />
+
+
+    <TextView
+        android:id="@+id/tvpreciojuegohistoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view3"
+        android:gravity="center"
+        android:text="prince"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvfechacompra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/tvpreciojuegohistoria"
+        android:gravity="center"
+        android:text="fecha :"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvpreciojuegohistoria"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="239dp"
+        android:layout_marginBottom="1dp"
+        android:textSize="20sp"
+        android:text="$"
+        android:textColor="#F8F8F8" />
+
+
+</RelativeLayout>

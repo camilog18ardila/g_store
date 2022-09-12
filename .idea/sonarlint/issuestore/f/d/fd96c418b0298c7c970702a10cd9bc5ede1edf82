@@ -1,0 +1,44 @@
+
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(›˜úşÿÿÿÿ
+V
+java:S1659"@Declare "et2" and all following declarations on a separate line.(™ğ—¢
+b
+java:S1659"GDeclare "txlastname" and all following declarations on a separate line.(‡ëÙéÿÿÿÿÿ
+o
+java:S1450"RRemove the "et1" field and declare it as a local variable in the relevant methods.(™ğ—¢8áÂ«®0
+o
+java:S1450"RRemove the "et2" field and declare it as a local variable in the relevant methods.(™ğ—¢8áÂ«®0
+o
+java:S1450"RRemove the "et3" field and declare it as a local variable in the relevant methods.(™ğ—¢8áÂ«®0
+o
+java:S1450"RRemove the "et4" field and declare it as a local variable in the relevant methods.(™ğ—¢8áÂ«®0
+o
+java:S1450"RRemove the "et5" field and declare it as a local variable in the relevant methods.(™ğ—¢8áÂ«®0
+j
+java:S1450"TRemove the "mAuth" field and declare it as a local variable in the relevant methods.(ªĞ”’
+=
+java:S1172#"(Remove this unused method parameter "v".(ş†Ì.
+D
+java:S1068"'Remove this unused "et1" private field.(™ğ—¢8ğÂ«®0
+D
+java:S1068"'Remove this unused "et2" private field.(™ğ—¢8ğÂ«®0
+D
+java:S1068"'Remove this unused "et3" private field.(™ğ—¢8ğÂ«®0
+D
+java:S1068"'Remove this unused "et4" private field.(™ğ—¢8ğÂ«®0
+D
+java:S1068"'Remove this unused "et5" private field.(™ğ—¢8ğÂ«®0
+J
+java:S1068"/Remove this unused "txfirstname" private field.(‡ëÙéÿÿÿÿÿ
+I
+java:S1068".Remove this unused "txlastname" private field.(‡ëÙéÿÿÿÿÿ
+F
+java:S1068"+Remove this unused "txemail" private field.(‡ëÙéÿÿÿÿÿ
+I
+java:S1068".Remove this unused "txpassword" private field.(‡ëÙéÿÿÿÿÿ
+P
+java:S1068"5Remove this unused "txconfirmpassword" private field.(‡ëÙéÿÿÿÿÿ
+F
+java:S1068"0Remove this unused "emailpattern" private field.(¬Åàª
+?
+java:S1068")Remove this unused "mAuth" private field.(ªĞ”’

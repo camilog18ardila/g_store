@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="25dp"
+    android:padding="20dp"
+
+    android:id="@+id/dialogo">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/dialogo2"
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:background="@drawable/fondovista"
+
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="20dp">
+
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonneutral"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/icono"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginEnd="10dp"
+            android:contentDescription="@string/app_name"
+            app:layout_constraintBottom_toBottomOf="@+id/titulo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/titulo"
+            app:tint="@color/white">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/mesanje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="18dp"
+            android:layout_marginBottom="40dp"
+            android:textColor="@color/teal_700"
+            android:textSize="17sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/titulo"
+            app:layout_constraintVertical_bias="0.0"
+            tools:layout_editor_absoluteX="20dp"></TextView>
+
+        <TextView
+            android:id="@+id/nombredeljuegoinfo"
+            android:layout_width="198dp"
+            android:layout_height="33dp"
+            android:layout_margin="18dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="40dp"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.788"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/mesanje"
+            app:layout_constraintVertical_bias="0.045"></TextView>
+
+        <TextView
+            android:id="@+id/preciodeljuego"
+            android:layout_width="159dp"
+            android:layout_height="28dp"
+            android:layout_margin="18dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="50dp"
+            android:drawableStart="@drawable/ic_baseline_attach_money_24"
+            android:textColor="#00C853"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.623"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nombredeljuegoinfo"
+            app:layout_constraintVertical_bias="0.0"></TextView>
+
+        <Button
+            android:id="@+id/buttonaction"
+            android:layout_width="73dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/button_success"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/preciodeljuego"></Button>
+
+        <Button
+            android:id="@+id/buttonnyes"
+            android:layout_width="138dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="104dp"
+            android:layout_marginTop="68dp"
+            android:background="@drawable/button_success"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            app:layout_constraintStart_toEndOf="@+id/buttonaction"
+            app:layout_constraintTop_toBottomOf="@+id/nombredeljuegoinfo"></Button>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/G_Store/app/src/main/res/drawable/ic_email.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/G_Store/app/src/main/res/drawable/ic_lock.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/G_Store/app/src/main/res/layout/activity_categoriasedit.xml" value="0.2" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/G_Store/app/src/main/res/layout/activity_exit_window.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/G_Store/app/src/main/res/layout/activity_game.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/G_Store/app/src/main/res/layout/activity_game_categories.xml" value="0.2" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/G_Store/app/src/main/res/layout/activity_gameinfo.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/G_Store/app/src/main/res/layout/activity_games.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/G_Store/app/src/main/res/layout/activity_gamesedit.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/G_Store/app/src/main/res/layout/activity_initiation.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/G_Store/app/src/main/res/layout/activity_login.xml" value="0.4" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/G_Store/app/src/main/res/layout/activity_login2.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/G_Store/app/src/main/res/layout/activity_login_splash.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/G_Store/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/G_Store/app/src/main/res/layout/activity_menu.xml" value="0.2" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/G_Store/app/src/main/res/layout/activity_menu_games.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/G_Store/app/src/main/res/layout/activity_menu_inicio.xml" value="0.4" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/G_Store/app/src/main/res/layout/activity_prueba.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/G_Store/app/src/main/res/layout/activity_signup.xml" value="0.4" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/G_Store/app/src/main/res/layout/exit_window.xml" value="0.2" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/G_Store/app/src/main/res/layout/view_categories.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/G_Store/app/src/main/res/layout/view_games.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/G_Store/app/src/main/res/layout/view_list_game.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/OneDrive/Escritorio/G_Store/app/src/main/res/drawable-hdpi/fondohistorial.xml" value="0.2255" />
+        <entry key="..\:/Users/ASUS/OneDrive/Escritorio/G_Store/app/src/main/res/drawable-hdpi/fondojuegoscard.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/OneDrive/Escritorio/G_Store/app/src/main/res/drawable-hdpi/fondousuario.xml" value="0.226" />
+        <entry key="..\:/Users/ASUS/OneDrive/Escritorio/G_Store/app/src/main/res/drawable/buscador.xml" value="0.111" />
+        <entry key="..\:/Users/ASUS/OneDrive/Escritorio/G_Store/app/src/main/res/drawable/button_success.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/OneDrive/Escritorio/G_Store/app/src/main/res/drawable/buttonneutral.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/OneDrive/Escritorio/G_Store/app/src/main/res/drawable/fondoimagen.xml" value="0.226" />
+        <entry key="..\:/Users/ASUS/OneDrive/Escritorio/G_Store/app/src/main/res/drawable/fondovista.xml" value="0.2255" />
+        <entry key="..\:/Users/ASUS/OneDrive/Escritorio/G_Store/app/src/main/res/layout/activity_gameinfo.xml" value="0.4" />
+        <entry key="..\:/Users/ASUS/OneDrive/Escritorio/G_Store/app/src/main/res/layout/activity_gamesedit.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS/OneDrive/Escritorio/G_Store/app/src/main/res/layout/activity_history.xml" value="0.15833333333333333" />
+        <entry key="..\:/Users/ASUS/OneDrive/Escritorio/G_Store/app/src/main/res/layout/activity_login2.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/OneDrive/Escritorio/G_Store/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/OneDrive/Escritorio/G_Store/app/src/main/res/layout/activity_menu_games.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS/OneDrive/Escritorio/G_Store/app/src/main/res/layout/activity_menu_inicio.xml" value="0.536" />
+        <entry key="..\:/Users/ASUS/OneDrive/Escritorio/G_Store/app/src/main/res/layout/activity_signup.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/OneDrive/Escritorio/G_Store/app/src/main/res/layout/alertdialogo.xml" value="0.4" />
+        <entry key="..\:/Users/ASUS/OneDrive/Escritorio/G_Store/app/src/main/res/layout/view_categories.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/OneDrive/Escritorio/G_Store/app/src/main/res/layout/view_games.xml" value="0.2" />
+        <entry key="..\:/Users/ASUS/OneDrive/Escritorio/G_Store/app/src/main/res/layout/view_history.xml" value="0.536" />
+        <entry key="..\:/Users/ASUS/OneDrive/Escritorio/G_Store/app/src/main/res/layout/view_list_game.xml" value="0.536" />
+        <entry key="..\:/Users/ASUS/OneDrive/Escritorio/G_Store/app/src/main/res/menu/menuopciones.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

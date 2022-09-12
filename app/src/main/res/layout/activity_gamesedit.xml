@@ -1,0 +1,84 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    tools:context=".Gamesedit">
+
+    <ImageView
+        android:id="@+id/ImagenAdd"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_cargarimgen"></ImageView>
+
+    <EditText
+        android:id="@+id/nombrejuego"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ImagenAdd"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:hint="Ingrese nombre del juego"></EditText>
+
+    <EditText
+        android:id="@+id/categoriajuego"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nombrejuego"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:hint="Ingrese categoria del juego"></EditText>
+
+    <EditText
+        android:id="@+id/preciojuego"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/categoriajuego"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:hint="Ingrese precio del juego"
+        android:inputType="number"></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese descripcion del juego"
+        android:id="@+id/descripcionjuego"
+        android:layout_below="@id/preciojuego"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"></EditText>
+
+    <TextView
+        android:id="@+id/textViewProgress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/descripcionjuego"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="0.0 %"
+        android:textSize="25dp"></TextView>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewProgress"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"></ProgressBar>
+
+    <Button
+        android:id="@+id/btnsubir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progressBar"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="Subir Juego"></Button>
+
+
+
+
+</RelativeLayout>

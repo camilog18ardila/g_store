@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="1dp"
+    android:background="#BBF1EA"
+
+    tools:context=".MenuInicio">
+
+
+    <EditText
+        android:id="@+id/buscador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/buscador"
+        android:drawableRight="@drawable/ic_search"
+        android:hint="Buscar por categoria"
+        android:paddingLeft="20dp"
+        android:paddingTop="3dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="8dp"></EditText>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="376dp"
+        android:layout_height="129dp"
+        android:layout_below="@id/buscador"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="18dp"
+        android:animateLayoutChanges="true"
+        android:background="@drawable/fondousuario"
+        app:cardBackgroundColor="#92EDDB"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/ln1"
+            android:layout_width="149dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical"
+            app:cardBackgroundColor="#7000BFA5">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="82dp"
+                android:layout_height="39dp"
+                android:text="Hola"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="174dp"
+                android:layout_height="37dp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="36dp"
+                android:text="Saldo Actual: $"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="214dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="175dp"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical"
+            app:cardBackgroundColor="#7000BFA5">
+
+            <TextView
+                android:id="@+id/tvname_menuinicio"
+                android:layout_width="140dp"
+                android:layout_height="37dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="184dp"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvVirtualM"
+                android:layout_width="181dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="50dp"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:emojiCompatEnabled="false" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvlistajuegos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/cardView"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#0013BD9D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView"
+        app:layout_constraintVertical_bias="0.755" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnhistorial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/ic_historial"></com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+    <TextView
+        android:id="@+id/txcorreo"
+        android:layout_width="195dp"
+        android:layout_height="22dp"
+        android:layout_alignStart="@+id/cardView"
+        android:layout_alignEnd="@+id/buscador"
+        android:layout_marginStart="156dp"
+        android:layout_marginEnd="22dp"
+        android:visibility="invisible" />
+
+</RelativeLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#47BAAA"
+    android:backgroundTint="#418F85"
+    app:cardBackgroundColor="#00FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#BBF1EA"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00FFFFFF"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageViewinfogame"
+                    android:layout_width="match_parent"
+                    android:layout_height="198dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/ic_image" />
+
+                <TextView
+                    android:id="@+id/tvnombregame_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="94dp"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:gravity="center"
+                    android:text="name" />
+
+                <TextView
+                    android:id="@+id/tvcatgoriagame_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="31dp"
+                    android:gravity="center"
+                    android:text="categorie"
+                    />
+
+                <TextView
+                    android:id="@+id/tvgameprice_info"
+                    android:drawableLeft="@drawable/ic_baseline_attach_money_24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.15"
+                    android:text="price" />
+
+                <TextView
+                    android:id="@+id/tvdescripciongame_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp"
+                    android:layout_weight="0.5"
+                    android:text="description" />
+
+                <Button
+                    android:id="@+id/btnBuy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.15"
+                    android:text="Buy" />
+
+                <EditText
+                    android:id="@+id/txtcorreo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="invisible" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
