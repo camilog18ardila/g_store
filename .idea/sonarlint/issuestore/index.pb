@@ -25,8 +25,5 @@ f
 6app/src/main/java/com/example/g_store/model/games.java,4\3\43191c78fcbc763faf36d775d45ef94773781f79
 p
 @app/src/main/java/com/example/g_store/adapter/games_Adapter.java,a\f\aff652e2449e092979469c406c81f7bee485cf87
-:
-
-.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
 P
  app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
