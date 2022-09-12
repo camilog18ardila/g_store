@@ -21,3 +21,16 @@ i
 9app/src/main/java/com/example/g_store/activity_login.java,f\d\fd96c418b0298c7c970702a10cd9bc5ede1edf82
 g
 7app/src/main/java/com/example/g_store/MainActivity.java,7\8\78c20fb1ae91a748c0fe91cd45bbbb6cd8fd486e
+e
+5app/src/main/java/com/example/g_store/MenuInicio.java,7\b\7b47e909daddcf001886d115d064a3ff7285c5f3
+f
+6app/src/main/java/com/example/g_store/model/games.java,4\3\43191c78fcbc763faf36d775d45ef94773781f79
+c
+3app/src/main/java/com/example/g_store/gameinfo.java,d\2\d20aa21ba585a6c6b5ccc393948056c186241725
+p
+@app/src/main/java/com/example/g_store/adapter/games_Adapter.java,a\f\aff652e2449e092979469c406c81f7bee485cf87
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
