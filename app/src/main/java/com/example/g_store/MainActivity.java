@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void ver(View v) {
-        Intent i = new Intent(this, Gamesedit.class);
+        Intent i = new Intent(this, activity_signup.class);
         startActivity(i);
     }
 
