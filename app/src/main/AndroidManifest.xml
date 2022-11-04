@@ -12,36 +12,40 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.G_Store">
         <activity
+            android:name=".ResetPassword"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".History"
-            android:screenOrientation="portrait"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".gameinfo"
-            android:screenOrientation="portrait"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Gamesedit"
             android:exported="false" />
         <activity
             android:name=".MenuInicio"
-            android:screenOrientation="portrait"
-            android:exported="false" >
-
-        </activity>
+            android:exported="false"
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name=".activity_signup"
-            android:screenOrientation="portrait"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".MainActivity"
-            android:screenOrientation="portrait"
-            android:exported="true">
+            android:exported="true"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
     </application>
 

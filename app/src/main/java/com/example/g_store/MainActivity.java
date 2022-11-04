@@ -38,6 +38,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void Resetpassword(View v) {
+        Intent i = new Intent(this, ResetPassword.class);
+        startActivity(i);
+    }
+
     public void iniciarsesion(View v) {
         txemail = et1.getText().toString().trim();
         txpassword = et2.getText().toString().trim();

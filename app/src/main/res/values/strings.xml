@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">GStore</string>
+    <string name="msg_reset_isSuccessful">Se ha enviado un un mensaje a tu correo para restablcer la contraseña, recuerda revisar tambien la carpeta de Spam</string>
+    <string name="msg_rest_setError">No Se Pudo Enviar El Correo De Restablecer Contraseña</string>
+    <string name="progress_mensaje_reset">"Se esta verificando la informacion, por favor espere..."</string>
+    <string name="campo_vacio">"El campo esta vacio"</string>
 </resources>
