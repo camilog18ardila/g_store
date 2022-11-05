@@ -114,7 +114,7 @@ public class gameinfo extends AppCompatActivity {
 
         Cursor fila = base.rawQuery("select * from history where codigo='" + cod+"'", null);
         if (fila.moveToFirst()){
-            Toast.makeText(this, "ya compro este juego",
+            Toast.makeText(this, getString(R.string.juego_comprado),
                     Toast.LENGTH_SHORT).show();
         } else {
 
@@ -134,14 +134,14 @@ public class gameinfo extends AppCompatActivity {
                                         if (saldo>vmoney){
                                             base.insert("history", null, registrohistory);
                                             base.close();
-                                            Toast.makeText(gameinfo.this, "Se cargaron los datos", Toast.LENGTH_SHORT).show();
+                                            Toast.makeText(gameinfo.this, getString(R.string.cargar_datos), Toast.LENGTH_SHORT).show();
                                             Double saldofinal = saldo - vmoney;
                                             actulizarsaldo(saldofinal);
                                         }else{
-                                            Toast.makeText(gameinfo.this, "No tine saldo suficiente para comprar este juego", Toast.LENGTH_SHORT).show();
+                                            Toast.makeText(gameinfo.this, getString(R.string.saldo_insuficiente), Toast.LENGTH_SHORT).show();
                                         }
                                     }else{
-                                        Toast.makeText(gameinfo.this, "No tiene saldo en su cuenta", Toast.LENGTH_SHORT).show();
+                                        Toast.makeText(gameinfo.this, getString(R.string.NO_SALDO), Toast.LENGTH_SHORT).show();
                                     }
                                 }
                             }
@@ -157,8 +157,8 @@ public class gameinfo extends AppCompatActivity {
                 R.layout.alertdialogo,(ConstraintLayout)findViewById(R.id.dialogo)
         );
         builder.setView(view);
-        ((TextView) view.findViewById(R.id.titulo)).setText("Desea comprar este juego?");
-        ((TextView) view.findViewById(R.id.mesanje)).setText("se descontara el el precio del juego de su saldo actual");
+        ((TextView) view.findViewById(R.id.titulo)).setText(getString(R.string.JUEGO_PARGAR));
+        ((TextView) view.findViewById(R.id.mesanje)).setText(getString(R.string.JUEGO_DESCUENTO));
         ((TextView) view.findViewById(R.id.nombredeljuegoinfo)).setText(nombreinfogame.getText().toString());
         ((TextView) view.findViewById(R.id.preciodeljuego)).setText(precioinfogame.getText().toString());
         ((Button) view.findViewById(R.id.buttonnyes)).setText("COMPRAR");

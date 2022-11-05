@@ -4,4 +4,16 @@
     <string name="msg_rest_setError">No Se Pudo Enviar El Correo De Restablecer Contraseña</string>
     <string name="progress_mensaje_reset">"Se esta verificando la informacion, por favor espere..."</string>
     <string name="campo_vacio">"El campo esta vacio"</string>
+
+
+    <string name="email_invalido">Ingrese un correo valido</string>
+    <string name="contraseña_no_coincide">las contraseñas deben ser iguales</string>
+
+    <string name="juego_comprado">ya compro este juego</string>
+    <string name="saldo_insuficiente">No tine saldo suficiente para comprar este juego</string>
+    <string name="NO_SALDO">"No tiene saldo en su cuenta"</string>
+    <string name="JUEGO_PARGAR">Desea comprar este juego?</string>
+    <string name="JUEGO_DESCUENTO">se descontara el el precio del juego de su saldo actual</string>
+
+    <string name="cargar_datos">Se cargaron los datos</string>
 </resources>

@@ -68,13 +68,13 @@ public class MainActivity extends AppCompatActivity {
                     });
 
                 } else {
-                    et1.setError("el campo esta vacio");
+                    et1.setError(getString(R.string.campo_vacio));
                 }
             } else {
                 et2.setError("el campo no cumple los requisitos de un correo");
             }
         } else {
-            et1.setError("El campo esta vacio");
+            et1.setError(getString(R.string.campo_vacio));
         }
 
     }

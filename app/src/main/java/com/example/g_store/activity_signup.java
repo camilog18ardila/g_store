@@ -101,24 +101,24 @@ public class activity_signup extends AppCompatActivity {
         boolean validar=true;
         if(et1.getText().toString().isEmpty()){
             validar= false;
-            et1.setError("Este campo no puede quedar vacio");
+            et1.setError(getString(R.string.campo_vacio));
         }else if(et2.getText().toString().isEmpty()){
             validar= false;
-            et2.setError("Este campo no puede quedar vacio");
+            et2.setError(getString(R.string.campo_vacio));
         }else if (et3.getText().toString().isEmpty()){
             if (txemail.matches(emailpattern)){
                 validar= true;
             } else {
-                et3.setError("Ingrese un correo valido");
+                et3.setError(getString(R.string.email_invalido));
                 validar = false;
             }
-            et3.setError("Este campo no puede quedar vacio");
+            et3.setError(getString(R.string.campo_vacio));
         }else if (et4.getText().toString().isEmpty()){
             validar= false;
-            et4.setError("Este campo no puede quedar vacio");
+            et4.setError(getString(R.string.campo_vacio));
         }else if (et5.getText().toString().isEmpty()){
             validar= false;
-            et5.setError("Este campo no puede quedar vacio");
+            et5.setError(getString(R.string.campo_vacio));
         }
         return validar;
     }
@@ -129,8 +129,8 @@ public class activity_signup extends AppCompatActivity {
             Toast.makeText(this, "Resgistro exitoso",
                     Toast.LENGTH_SHORT).show();
         }else {
-            et4.setError("las contraseñas deben ser iguales");
-            et5.setError("las contraseñas deben ser iguales");
+            et4.setError(getString(R.string.contraseña_no_coincide));
+            et5.setError(getString(R.string.contraseña_no_coincide));
             validar= false;
         }
         return validar;
