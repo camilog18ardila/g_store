@@ -65,6 +65,7 @@ public class ResetPassword extends AppCompatActivity {
                     buttonResetPassword.setVisibility(View.INVISIBLE);
                 }else{
                     textViewMsg.setText(getString(R.string.msg_rest_setError));
+                    textViewMsg.setVisibility(View.VISIBLE);
                 }
                 progressDialog.dismiss();
             }
