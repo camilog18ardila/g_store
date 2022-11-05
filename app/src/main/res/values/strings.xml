@@ -16,4 +16,6 @@
     <string name="JUEGO_DESCUENTO">se descontara el el precio del juego de su saldo actual</string>
 
     <string name="cargar_datos">Se cargaron los datos</string>
+    <string name="MSG_ESPERA">Espere un momento</string>
+
 </resources>

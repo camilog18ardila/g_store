@@ -3,6 +3,7 @@ package com.example.g_store;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.ProgressDialog;
 import android.content.ContentValues;
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
@@ -32,6 +33,7 @@ public class activity_signup extends AppCompatActivity {
     private String emailpattern="[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";
     private FirebaseAuth mAuth;
     private FirebaseFirestore db;
+    private ProgressDialog progressDialog;
 
 
     @Override
@@ -43,6 +45,7 @@ public class activity_signup extends AppCompatActivity {
         et3=findViewById(R.id.email);
         et4=findViewById(R.id.etpassword);
         et5=findViewById(R.id.confirm_password);
+        progressDialog= new ProgressDialog(this);
 
         mAuth = FirebaseAuth.getInstance();
         db = FirebaseFirestore.getInstance();
@@ -126,7 +129,7 @@ public class activity_signup extends AppCompatActivity {
     private boolean confirmarcontraseña(){
         boolean validar= true;
         if (txconfirmpassword.equals(txpassword)){
-            Toast.makeText(this, "Resgistro exitoso",
+            Toast.makeText(this, getString(R.string.MSG_ESPERA),
                     Toast.LENGTH_SHORT).show();
         }else {
             et4.setError(getString(R.string.contraseña_no_coincide));
