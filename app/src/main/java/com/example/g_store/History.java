@@ -33,7 +33,7 @@ public class History extends AppCompatActivity {
         rvhistorial.setLayoutManager(new LinearLayoutManager(this));
         Cursor cursor = db.getData(correousuario);
         if (cursor.getCount()==0){
-            Toast.makeText(this, "No hay resgistros", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "There's not ", Toast.LENGTH_SHORT).show();
             return;
         }else{
             while (cursor.moveToNext()){
