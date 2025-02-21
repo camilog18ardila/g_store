@@ -137,6 +137,7 @@ public class Gamesedit extends AppCompatActivity {
         game.setCategorie(txtnombregame.getText().toString());
         game.setDescription(txtdescripciongame.getText().toString());
         game.setPrice(Double.parseDouble(txtpreciogame.getText().toString()));
+    
 
 
         FirebaseDatabase database = FirebaseDatabase.getInstance();
