@@ -103,7 +103,7 @@ public class Gamesedit extends AppCompatActivity {
                         databaseReference.child(key).setValue(hashMap).addOnSuccessListener(new OnSuccessListener<Void>() {
                             @Override
                             public void onSuccess(Void avoid) {
-                                Toast.makeText(Gamesedit.this, "Se subio correctamente", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(Gamesedit.this, "Se subio correctamenteeee", Toast.LENGTH_SHORT).show();
                             }
                         });
 
@@ -137,6 +137,7 @@ public class Gamesedit extends AppCompatActivity {
         game.setCategorie(txtnombregame.getText().toString());
         game.setDescription(txtdescripciongame.getText().toString());
         game.setPrice(Double.parseDouble(txtpreciogame.getText().toString()));
+        es un prueba
 
 
         FirebaseDatabase database = FirebaseDatabase.getInstance();
