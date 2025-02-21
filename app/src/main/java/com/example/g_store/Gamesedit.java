@@ -103,7 +103,11 @@ public class Gamesedit extends AppCompatActivity {
                         databaseReference.child(key).setValue(hashMap).addOnSuccessListener(new OnSuccessListener<Void>() {
                             @Override
                             public void onSuccess(Void avoid) {
+<<<<<<< HEAD
                                 Toast.makeText(Gamesedit.this, "Se subio correctamente", Toast.LENGTH_SHORT).show();
+=======
+                                Toast.makeText(Gamesedit.this, "SE SUBIÓ CORRECTAMENTE", Toast.LENGTH_SHORT).show();
+>>>>>>> baf7bf3 (PRUEBA)
                             }
                         });
 
