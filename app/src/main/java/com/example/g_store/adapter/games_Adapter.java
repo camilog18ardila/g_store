@@ -21,6 +21,6 @@ public class games_Adapter extends RecyclerView.ViewHolder {
         juegonombre = itemView.findViewById(R.id.tvnombrejuegolista);
         juegoprecio = itemView.findViewById(R.id.tvpreciojuegolista);
         juegocategoria = itemView.findViewById(R.id.tvcategoriajuegolista);
-        v=itemView;//esta linea
+        v=itemView;
     }
 }
