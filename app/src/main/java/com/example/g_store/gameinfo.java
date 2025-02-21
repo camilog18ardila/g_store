@@ -161,7 +161,7 @@ public class gameinfo extends AppCompatActivity {
         ((TextView) view.findViewById(R.id.mesanje)).setText(getString(R.string.JUEGO_DESCUENTO));
         ((TextView) view.findViewById(R.id.nombredeljuegoinfo)).setText(nombreinfogame.getText().toString());
         ((TextView) view.findViewById(R.id.preciodeljuego)).setText(precioinfogame.getText().toString());
-        ((Button) view.findViewById(R.id.buttonnyes)).setText("COMPRAR");
+        ((Button) view.findViewById(R.id.buttonnyes)).setText("BUY");
         ((Button) view.findViewById(R.id.buttonaction)).setText("No");
         ((ImageView) view.findViewById(R.id.icono)).setImageResource(R.drawable.ic_done);
 
