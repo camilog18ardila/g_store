@@ -14,7 +14,6 @@ public class games_Adapter extends RecyclerView.ViewHolder {
     public ImageView imagenlista;
     public TextView juegonombre,juegoprecio,juegocategoria;
     public View v;
-    //TextView juegonombre,juegoprecio, juegocategoria;
     public games_Adapter(@NonNull View itemView) {
         super(itemView);
         imagenlista=itemView.findViewById(R.id.ivimagenjuegolista);
